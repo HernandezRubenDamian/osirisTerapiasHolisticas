@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="gallery" id="portfolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Terapia</h2>
+                <div class="contenedor-galeria">
+                    <img src="./img/cartaNatal.jpg" alt="Terapia 1" class="img-galeria" id="image">
+                    <ul class="info-list" id="info-list" style="display: none; position: absolute; top: 20px; left: 20px; background-color: rgba(255, 255, 255, 0.7); padding: 10px; list-style-type: none; border-radius: 10px;">
+                        <li class="info-item" data-info="Texto informativo 1">Item 1</li>
+                        <li class="info-item" data-info="Texto informativo 2">Item 2</li>
+                        <li class="info-item" data-info="Texto informativo 3">Item 3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contenedor para mostrar el texto informativo -->
+        <div id="info-container" style="display: none; padding: 20px; background-color: #f0f0f0; border-radius: 10px; margin-top: 20px;">
+            <button id="close-btn" style="background-color: #ff5c5c; color: white; padding: 5px 10px; border: none; cursor: pointer;">Cerrar</button>
+            <div id="info-text"></div>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
